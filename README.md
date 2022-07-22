@@ -6,10 +6,37 @@ For example, if the given vectors are presented by the columns of the matrix
 
 ```math
 \begin{pmatrix}
-   a & b \\
-   c & d
+   3 & 4 \\
+   2 & 1
 \end{pmatrix}
 ```
+and weights are presented by vector
+```math
+\begin{pmatrix}
+   2 & 3 \\
+\end{pmatrix}
+```
+then their linear combination is computed as 
+```math
+2\times\begin{pmatrix}
+   3 \\
+   2 
+\end{pmatrix}
++3\times
+\begin{pmatrix}
+   4 \\
+   1 
+\end{pmatrix}=
+\begin{pmatrix}
+   6 + 12\\
+   4 + 3
+\end{pmatrix}=
+\begin{pmatrix}
+   18\\
+   7
+\end{pmatrix}
+```
+
 
 ## Getting started
 
