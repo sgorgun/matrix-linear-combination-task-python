@@ -1,6 +1,15 @@
 # matrix-linear-combination-task-python
 
-Template for computing the linear combination task
+A set of programming assignments that proofs your abilitity to compute linear combination of vectors. The vectors are passed by the columns of the source matrix . The weights that are used for computing the linear combination are passed by the array $weights$. For the given matrix $m\times n$ and $n$ numbers compute the linear combination. The target function has signature $linear-combine(matrix, weights)$ and produces a list of numbers.
+
+For example, if the given vectors are presented by the columns of the matrix
+
+```math
+\begin{pmatrix}
+   a & b \\
+   c & d
+\end{pmatrix}
+```
 
 ## Getting started
 
