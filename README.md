@@ -37,6 +37,10 @@ then their linear combination is computed as
 \end{pmatrix}
 ```
 
+There are two requirements:
+- Target object have to be calculated correctly;
+- The dimensions of the passed matrix and the number of items in $weight$ list have to be checked before the linear combination calculation.
+The checking function has the signature $validate_combine(matrix, weights)$ and it throws 
 
 ## Getting started
 
