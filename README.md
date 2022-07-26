@@ -1,4 +1,4 @@
-# matrix-linear-combination-task-python
+# Matrices. Computing the linear combination task
 
 A set of programming assignments that proofs your abilitity to compute linear combination of vectors. 
 The vectors are passed by the columns of the source matrix . 
