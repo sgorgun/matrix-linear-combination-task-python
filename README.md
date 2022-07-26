@@ -1,11 +1,11 @@
 # Matrices. Computing the linear combination task
 
 A set of programming assignments that proofs your abilitity to compute linear combination of vectors. 
-The vectors are passed by the columns of the source matrix . 
+The source vectors are passed by the columns of the initial matrix. 
 The weights that are used for computing the linear combination are passed 
-by the array $weights$. For the given matrix $m\times n$ and $n$ numbers 
-compute the linear combination. The target function has signature 
-$linear-combination(matrix, weights)$ and produces a list of numbers.
+by the array $`weights`$. The initial matrix of numbers has dimensions $`m\times n`$ and
+has to be passed as list of lists of numbers. The target function has signature 
+$`linear-combination(matrix, weights)`$ and produces a list of numbers.
 
 For example, if the given vectors are presented by the columns of the matrix
 
@@ -18,7 +18,8 @@ For example, if the given vectors are presented by the columns of the matrix
 and weights are presented by vector
 ```math
 \begin{pmatrix}
-   2 & 3 \\
+   2 \\
+   3 
 \end{pmatrix}
 ```
 then their linear combination is computed as 
