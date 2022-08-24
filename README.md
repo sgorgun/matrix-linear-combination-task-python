@@ -3,9 +3,9 @@
 A set of programming assignments that proofs your abilitity to compute linear combination of vectors. 
 The source vectors are passed by the columns of the initial matrix. 
 The weights that are used for computing the linear combination are passed 
-by the array $`weights`$. The initial matrix of numbers has dimensions $`m\times n`$ and
+by the array `weights`. The initial matrix of numbers has dimensions $`m\times n`$ and
 has to be passed as a list of lists of numbers. The target function has signature 
-$`linear-combination(matrix, weights)`$ and produces a list of numbers.
+`linear-combination(matrix, weights)` and produces a list of numbers.
 
 For example, if the given vectors are presented by the columns of the matrix
 
@@ -45,4 +45,4 @@ then, their linear combination is computed as
 
 There are two requirements:
 - Target object have to be calculated correctly;
-- The dimensions of the initial matrix and the number of items in $weight$ list have to be checked before the linear combination calculation.
+- The dimensions of the initial matrix and the number of items in `weight` list have to be checked before the linear combination calculation.
