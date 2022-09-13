@@ -1,11 +1,12 @@
 # Matrices. Computing the linear combination task
 
-A set of programming assignments that checks your abilities to compute linear combination of vectors. 
-The source vectors are passed by the columns of the initial matrix. 
-The weights that are used for computing the linear combination are passed 
-by the array `weights`. The initial `matrix` of numbers has dimensions $`m\times n`$ and
-has to be passed as a list of lists of numbers. The target function has signature 
-`linear_combination(matrix: List[List[float]], weights: List[float]) -> List[float]` and produces a list of numbers.
+Programming assignment that checks your abilities to compute linear combination of vectors.
+
+You task is to implement a function with the following signature:
+
+`linear_combination(matrix: List[List[float]], weights: List[float]) -> List[float]`
+
+that returns a linear combination of columns of a given `matrix` using a given list of `weights` that correspond to the columns.
 
 For example, if the given vectors are presented by the columns of the `matrix`
 
