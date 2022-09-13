@@ -1,13 +1,19 @@
+"""Sample tests for 'tasks.linear_combination' module."""
+import numpy as np
+
+import pytest
+
 from tasks.linear_combination import linear_combination
 
 
-def compare_result(matrix, weights, result) -> bool:
-    return linear_combination(matrix, weights) == result
+def test_linear_combination():
+    """Sample tests for linear_combination function."""
+    assert np.allclose(linear_combination(matrix=[[1, 0], [0, 1]], weights=[2, 3]), [2, 3])
+    
+    assert np.allclose(linear_combination(matrix=[[1, 1, 1], [1, 2, 3]], weights=[1, 2]), [3, 5, 7])
 
+    with pytest.raises(ValueError):
+        _ = linear_combination(matrix=[[1, 1], [1, 1]], weights=[2])
 
-def test_linear_combination_1():
-    assert compare_result([[1, 0], [0, 1]], [2, 3], [2, 3]), True
-
-
-def test_linear_combination_2():
-    assert compare_result([[1, 1], [1, 1]], [2, 3], [5, 5]), True
+    with pytest.raises(ValueError):
+        _ = linear_combination(matrix=[[1, 1], [1, 1]], weights=[2, 3, 4])
