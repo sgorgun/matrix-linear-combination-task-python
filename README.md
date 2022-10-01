@@ -139,6 +139,6 @@ Expected output:
 \end{pmatrix}
 ```
 
-Expected output: `ValueError` exception is raised as the matrix and weight are not compatible.
+Expected output: `ValueError` exception is raised as the matrix and the weights are not compatible.
 
 Please use a template for the implementation (`tasks/linear_combination:linear_combination`).
