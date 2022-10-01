@@ -3,7 +3,6 @@
 ## Purpose
 
 The coding exercise is designed to test knowledge of the following concepts:
-
 * Linear combination of vectors
 
 ## Overview
