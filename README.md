@@ -35,21 +35,18 @@ def linear_combination(matrix: List[List[float]], weights: List[float]) -> List[
 
 **Example 1:**
 
-`matrix`:
 ```math
-\begin{pmatrix}
+matrix=\begin{pmatrix}
    3 & 4 \\
    2 & 1
 \end{pmatrix}
-```
 
-`weights`:
-```math
-\begin{pmatrix}
+weights=\begin{pmatrix}
    2 \\
    3 
 \end{pmatrix}
 ```
+
 
 Expected output: 
 
@@ -75,17 +72,13 @@ Expected output:
 
 **Example 2:**
 
-`matrix`:
 ```math
-\begin{pmatrix}
+matrix = \begin{pmatrix}
    1 & 0 \\
    0 & 1
 \end{pmatrix}
-```
 
-`weights`:
-```math
-\begin{pmatrix}
+weights = \begin{pmatrix}
    2 \\
    3 
 \end{pmatrix}
@@ -102,17 +95,13 @@ Expected output:
 
 **Example 3:**
 
-`matrix`:
 ```math
-\begin{pmatrix}
+matrix = \begin{pmatrix}
    1 & 0 \\
    0 & 1
 \end{pmatrix}
-```
 
-`weights`:
-```math
-\begin{pmatrix}
+weights = \begin{pmatrix}
    2
 \end{pmatrix}
 ```
