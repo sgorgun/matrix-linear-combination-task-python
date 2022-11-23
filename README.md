@@ -1,14 +1,13 @@
-# Matrices. Linear combination
+# Linear combination
 
 ## Purpose
 
-The coding exercise is designed to test knowledge of the following concepts:
-* Linear combination of vectors
+Linear combination of vectors is used in many applications. This programming task will give you some practice using linear combination. 
 
 ## Overview
 
-The coding exercise covers the following practical problem:
-* Computing a linear combination of columns for a given matrix
+Write a function that produces the linear combination for a matrix of the size 
+$(m,n)$ and with $n$ numbers.
 
 ## Coding exercises
 
@@ -32,6 +31,7 @@ def linear_combination(matrix: List[List[float]], weights: List[float]) -> List[
     """
     pass
 ```
+The function should return the linear combination of columns of the given `matrix` using the given list `weights`. The  items in `weights`correspond to the columns. 
 
 **Example 1:**
 
