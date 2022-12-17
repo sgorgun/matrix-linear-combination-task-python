@@ -1,9 +1,8 @@
-# Matrices. Linear combination
+# Linear combination
 
 ## Purpose
 
-The coding exercise is designed to test knowledge of the following concepts:
-
+The following coding exercise is designed to test your knowledge of the following concepts:
 * Linear combination of vectors
 
 ## Overview

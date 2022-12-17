@@ -1,8 +1,8 @@
-# Matrices. Linear combination
+# Linear combination
 
 ## Purpose
 
-The coding exercise is designed to test knowledge of the following concepts:
+The following coding exercise is designed to test your knowledge of the following concepts:
 * Linear combination of vectors
 
 ## Overview
@@ -14,7 +14,7 @@ The coding exercise covers the following practical problem:
 
 ### Exercise 1: Compute a linear combination
 
-Your task is to implement the following function that returns the linear combination of columns for a given matrix:
+Your task is to implement the following function to return the linear combination of columns for a given matrix:
 
 ```python
 def linear_combination(matrix: List[List[float]], weights: List[float]) -> List[float]:
@@ -108,4 +108,4 @@ weights = \begin{pmatrix}
 
 Expected output: `ValueError` exception is raised as the matrix and the weights are not compatible.
 
-Please use a template for the implementation (`tasks/linear_combination:linear_combination`).
+Please use the template `tasks/linear_combination:linear_combination` for the implementation.
