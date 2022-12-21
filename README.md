@@ -22,13 +22,13 @@ def linear_combination(matrix: List[List[float]], weights: List[float]) -> List[
 
     Args:
         matrix: List[List[float]], a given numeric matrix.
-        weights: List[float], a list of weights that correspond to columns
+        weights: List[float], a list of weights that correspond to the columns of the matrix
 
     Returns:
-        The result linear combination.
+        The resulting linear combination.
 
     Raises:
-        ValueError: If given matrix and weights are not compatible (dimensionalities don't match).
+        ValueError: If the given matrix and weights are not compatible (dimensionalities don't match).
     """
     pass
 ```
@@ -106,6 +106,6 @@ weights = \begin{pmatrix}
 \end{pmatrix}
 ```
 
-Expected output: `ValueError` exception is raised as the matrix and the weights are not compatible.
+Expected output: The `ValueError` exception is raised because the matrix and the weights are not compatible.
 
 Please use the template `tasks/linear_combination:linear_combination` for the implementation.
