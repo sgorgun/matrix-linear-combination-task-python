@@ -14,4 +14,14 @@ def linear_combination(matrix: List[List[float]], weights: List[float]) -> List[
     Raises:
         ValueError: If the given matrix and weights are not compatible (dimensionalities don't match).
     """
-    pass
+    if len(matrix[0]) != len(weights):
+        raise ValueError("Dimensionalities of matrix and weights don't match.")
+    
+    result = []
+    for i in range(len(matrix)):
+        linear_sum = 0
+        for j in range(len(matrix[i])):
+            linear_sum += matrix[i][j] * weights[j]
+        result.append(linear_sum)
+    
+    return result
